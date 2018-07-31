@@ -30,7 +30,6 @@ export class HeroDetailComponent implements OnInit {
 
   goBack(): void
   {
-    this.heroService.clearMessages();
     this.location.back();
   }
 
